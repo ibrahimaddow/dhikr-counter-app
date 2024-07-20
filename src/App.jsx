@@ -43,7 +43,7 @@ const App = () => {
         <div className="mb-4 text-center text-2xl border border-blue-500 py-2 px-4 rounded">{count}</div>
         <div className="flex space-x-4">
           {/* Button to decrement the count */}
-          <button className="bg-blue-500 text-white font-semibold py-2 px-4 rounded shadow hover:bg-blue-600" onClick={handleDecrement}>Decrement</button>
+          <button className="bg-blue-500 text-white font-semibold py-2 px-4 rounded shadow hover:bg-blue-600" onClick={handleCount}>Count</button>
           {/* Button to increment the count */}
           <button className="bg-blue-500 text-white font-semibold py-2 px-4 rounded shadow hover:bg-blue-600" onClick={handleIncrement}>Increment</button>
           {/* Button to reset the count */}
