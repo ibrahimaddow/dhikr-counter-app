@@ -39,7 +39,7 @@ const App = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
       <div className="p-6 bg-white rounded shadow-md border border-blue-500">
-        <h1 className="text-3xl font-bold mb-4 text-center">Counter App</h1>
+        <h1 className="text-3xl font-bold mb-4 text-center"> Dhikr Counter App</h1>
         <div className="mb-4 text-center text-2xl border border-blue-500 py-2 px-4 rounded">{count}</div>
         <div className="flex space-x-4">
           {/* Button to decrement the count */}
