@@ -31,7 +31,7 @@ const App = () => {
   };
 
   // Function to handle resetting the count
-  const handleReset = () => {
+  const handleDelete = () => {
     setCount(0); // Reset the count state to 0
     localStorage.setItem('count', '0'); // Update localStorage to reflect the reset count
   };
@@ -47,7 +47,7 @@ const App = () => {
           {/* Button to increment the count */}
           <button className="bg-blue-500 text-white font-semibold py-2 px-4 rounded shadow hover:bg-blue-600" onClick={handleIncrement}>Increment</button>
           {/* Button to reset the count */}
-          <button className="bg-blue-500 text-white font-semibold py-2 px-4 rounded shadow hover:bg-blue-600" onClick={handleReset}>Reset</button>
+          <button className="bg-blue-500 text-white font-semibold py-2 px-4 rounded shadow hover:bg-blue-600" onClick={handleDelete}>Dlete</button>
         </div>
       </div>
     </div>
